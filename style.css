@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(./background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.content .logo{
+    width: 190px;
+    height: 190px;
+    margin: 30px auto 0px;
+}
+.content .logo img{
+    width: 100%;
+    height: 100%;
+}
+.content .poster{
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.content .poster img{
+    width: 100%;
+    height: 340px;
+}
+.content .link-contact{
+    width: 300px;
+    margin: 250px auto 0px;
+}
+.content .link-contact img{
+    width: 100%;
+    height: 100%;
+}
+.content .link-download{
+    width: 700px;
+    margin: 100px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .link-download img{
+    width: 300px;
+    height: 100%;
+}
+@media only screen and (max-width: 320px){
+    .content .poster{
+        width: 100% !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: block;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 100% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .content .logo{
+        width: 150px;
+        height: 150px;
+        margin: 80px auto 0px;
+    }
+    .content .poster{
+        width: 55%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: block;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 55%;
+    }
+    .content .link-contact{
+        width: 100%;
+        margin: 140px auto 0px;
+        padding: 30px;
+    }
+    .content .link-contact img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-download{
+        width: 100%;
+        margin: 20px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .content .link-download img{
+        width: 95%;
+        height: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .content .logo{
+        width: 150px;
+        height: 150px;
+        margin: 80px auto 0px;
+    }
+    .content .poster{
+        width: 55%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 55%;
+    }
+    .content .link-contact{
+        width: 60%;
+        margin: 140px auto 0px;
+        padding: 30px;
+    }
+    .content .link-contact img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-download{
+        width: 100%;
+        margin: 50px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .content .link-download img{
+        width: 95%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .content .logo{
+        width: 150px;
+        height: 150px;
+        margin: 80px auto 0px;
+    }
+    .content .poster{
+        width: 55%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 55%;
+    }
+    .content .link-contact{
+        width: 60%;
+        margin: 140px auto 0px;
+        padding: 30px;
+    }
+    .content .link-contact img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-download{
+        width: 50%;
+        margin: 50px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .content .link-download img{
+        width: 95%;
+        height: 100%;
+    }
+}
+
